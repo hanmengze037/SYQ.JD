@@ -5,27 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 CN-TW-WAP, server: gd.bajienetwork.com, port: 36104, type: ss, cipher: aes-128-gcm, password: 8fec0e82-9390-4818-a9f0-736f534950e3, tfo: false, udp: true}
+  - {name: 🇭🇰 香港隧道-0.01x, server: 120.240.48.244, port: 22299, type: ss, cipher: chacha20-ietf-poly1305, password: fdd8da49-6965-4623-86bb-7acfbb2a1b12, tfo: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -44,31 +44,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港隧道-0.01x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,7 +85,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN-TW-WAP
+      - 🇭🇰 香港隧道-0.01x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
