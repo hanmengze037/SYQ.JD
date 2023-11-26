@@ -8,7 +8,6 @@ proxies:
   - {name: 🇭🇰 胡桃丨Hong Kong / 香港, server: 23ea.e2s.buzz, port: 38149, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
   - {name: 🇯🇵 雷电将军丨Japan / 日本, server: a3ca.e2s.buzz, port: 36999, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
   - {name: 🇸🇬 芙宁娜丨Singapore / 新加坡, server: 5129.e2s.buzz, port: 26167, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
-  - {name: 🇺🇸 神里凌华丨United States / 美国, server: 8614.e2s.buzz, port: 34387, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -18,7 +17,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -27,7 +25,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -37,7 +34,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -59,7 +55,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -74,7 +69,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -83,7 +77,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -93,7 +86,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -112,7 +104,6 @@ proxy-groups:
       - 🇭🇰 胡桃丨Hong Kong / 香港
       - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
-      - 🇺🇸 神里凌华丨United States / 美国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -1675,4 +1666,15 @@ rules:
  - DOMAIN-SUFFIX,app.jgyee.com,🛑 全球拦截
  - DOMAIN-SUFFIX,app.jiuzhilan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,app.juwang.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.lz5
+ - DOMAIN-SUFFIX,app.lz55.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.starschina.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.tanwan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.uu.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.waps.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.wapx.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.wumii.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.xizi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.xyjqy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app01.nodes.gslb.mi-idc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app02.nodes.gslb.mi-idc.com,🛑 
