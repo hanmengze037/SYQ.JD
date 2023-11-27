@@ -6,7 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇭🇰 胡桃丨Hong Kong / 香港, server: 23ea.e2s.buzz, port: 38149, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
-  - {name: 🇯🇵 雷电将军丨Japan / 日本, server: a3ca.e2s.buzz, port: 36999, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
   - {name: 🇸🇬 芙宁娜丨Singapore / 新加坡, server: 5129.e2s.buzz, port: 26167, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
 proxy-groups:
   - name: 🔰 节点选择
@@ -15,7 +14,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
   - name: ♻️ 自动选择
     type: url-test
@@ -23,7 +21,6 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
   - name: 🎥 NETFLIX
     type: select
@@ -32,7 +29,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
   - name: ⛔️ 广告拦截
     type: select
@@ -53,7 +49,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
   - name: 🌏 国内媒体
     type: select
@@ -67,7 +62,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
   - name: 📲 电报信息
     type: select
@@ -75,7 +69,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
   - name: 🍎 苹果服务
     type: select
@@ -84,7 +77,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
   - name: 🎯 全球直连
     type: select
@@ -102,7 +94,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇯🇵 雷电将军丨Japan / 日本
       - 🇸🇬 芙宁娜丨Singapore / 新加坡
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
@@ -1668,13 +1659,4 @@ rules:
  - DOMAIN-SUFFIX,app.juwang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,app.lz55.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.starschina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.tanwan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.uu.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,app.waps.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,app.wapx.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,app.wumii.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.xizi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.xyjqy.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app01.nodes.gslb.mi-idc.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app02.nodes.gslb.mi-idc.com,🛑 
+ - DOMAIN-SUFFIX,app.stars
