@@ -5,31 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 胡桃丨Hong Kong / 香港, server: 23ea.e2s.buzz, port: 38149, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
-  - {name: 🇸🇬 芙宁娜丨Singapore / 新加坡, server: 5129.e2s.buzz, port: 26167, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false}
+  - {name: 🇭🇰 三月七丨Hong Kong / 香港, server: 120.232.177.172, port: 38149, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -48,36 +44,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 胡桃丨Hong Kong / 香港
+      - 🇭🇰 三月七丨Hong Kong / 香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -93,8 +85,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 胡桃丨Hong Kong / 香港
-      - 🇸🇬 芙宁娜丨Singapore / 新加坡
+      - 🇭🇰 三月七丨Hong Kong / 香港
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -1659,4 +1650,33 @@ rules:
  - DOMAIN-SUFFIX,app.juwang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,app.lz55.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.stars
+ - DOMAIN-SUFFIX,app.starschina.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.tanwan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.uu.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.waps.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.wapx.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.wumii.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.xizi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.xyjqy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app01.nodes.gslb.mi-idc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app02.nodes.gslb.mi-idc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appboy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appc.baidu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appcdn.wapx.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appcdn.wapx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appcpa.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,appdriver.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appdriver.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appfh.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app-g.39.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,appget.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appgift.sinaapp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appjiagu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,applifier.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,applog.uc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app-monitor.ele.me,🛑 全球拦截
+ - DOMAIN-SUFFIX,appnext.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appodealx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apppic.yingyongbei.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apps.mobilityware.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apps.outfit7.com,🛑 
