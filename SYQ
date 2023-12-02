@@ -5,27 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线, server: 36.133.86.136, port: 38149, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false, udp: true}
+  - {name: 🇭🇰 纳西妲丨Hong Kong / 商宽专线, server: 36.133.86.136, port: 38149, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -44,32 +44,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,7 +84,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 雷电·真丨Hong Kong / 香港商宽专线
+      - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -1514,4 +1513,170 @@ rules:
  - DOMAIN-SUFFIX,alitianxia168.com,🛑 全球拦截
  - DOMAIN-SUFFIX,alitui.weibo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,aliunion.cn.yahoo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,a
+ - DOMAIN-SUFFIX,aliyuncss.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aliyunxin.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,all.orfr.adgtw.orangeads.fr,🛑 全球拦截
+ - DOMAIN-SUFFIX,all.rising.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,allnews.uodoo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,allxin.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,alvares.esportsheaven.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,am.6park.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,am.g.ireader.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,am.szhome.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,am.zdnet.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,am15.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,amazingmagics.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,amfi.gou.sogou.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,amiok.org,🛑 全球拦截
+ - DOMAIN-SUFFIX,amps.yoyi.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ams.fx678.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ams.lenovomm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,a-m-s.poco.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,amz.steamprices.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,an.m.liebao.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,an.wikigifth.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,an.yandex.ru,🛑 全球拦截
+ - DOMAIN-SUFFIX,ana.tatahn.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,analy.qq.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,andmejs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,android.push.126.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,android.rqd.qq.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,androidlog.shouji.baofeng.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,android-lrcresource.wps.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,andrqd.play.aiseet.atianqi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,anfeng.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,angsrvr.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,anioscp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ann5.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,anquan.baidu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,anquan.org,🛑 全球拦截
+ - DOMAIN-SUFFIX,anreson.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,antivirus.baidu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,anyangruisi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,anysdk.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aodongjiaosu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aombjl099.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aoodoo.feng.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aoodoo.weiphone.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,aos.wall.youmi.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,aos-creative.prf.hn,🛑 全球拦截
+ - DOMAIN-SUFFIX,apas.aipai.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.0.0.0.0.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.adv.ott.cibntv.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.ahjinshu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.android.dianru.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.anti.wauee.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.appodeal.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.apps.sina.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.bailingjiankang.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.bs.zui.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.cmt.mob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.coolguang.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.dewmobile.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.dianru.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.doumob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.dreamfull.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.dsp.yhd.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.exc.mob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.g1.junfull.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.g2.junfull.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.gi.igexin.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.goulegu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.growingio.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.iapps.ifeng.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.iimedia.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.ijunhai.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.itaoxiaoshuo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.jr.mi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.ketedata.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.koudaikj.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.leadbolt.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.mobgi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.mobula.sdk.duapps.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.moogos.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.mp.uc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.newbelden.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.open.uc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.pingstart.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.ppoi.org,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.primecaster.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.push.daoyoudao.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.ra2.xlmc.sec.miui.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.rees46.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.rideraid.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.sec.miui.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.share.mob.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.shuzilm.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.similarweb.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.tr.blismedia.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.tw06.xlmc.sec.miui.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.ujian.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.union.vip.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.uniplayad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.userstyles.org,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.viglink.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.waptest.taobao.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.xk.miui.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.y.igexin.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.youxiaoad.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api.zol.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api2.play.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api-flow.flyme.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,api-game.meizu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apihk.growingio.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api-push.meizu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,api-shoulei-ssl.xunlei.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apisoft.df0535.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apk.idate520.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apk.supfast.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,apkdo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apkinfo.voole.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apklog.cp11.ott.cibntv.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,apm.suning.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,apnmedia.ask.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apns.ios.ijinshan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apollo.caixin.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.3987.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.9yyg.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.abc000.today,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.acm.dzwww.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.eduancm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.houyi.baofeng.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.hytdsm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.ibaiducdn.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.jgyee.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.jiuzhilan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.juwang.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.lz55.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.starschina.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.tanwan.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.uu.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.waps.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.wapx.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.wumii.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.xizi.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app.xyjqy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app01.nodes.gslb.mi-idc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app02.nodes.gslb.mi-idc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appboy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appc.baidu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appcdn.wapx.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appcdn.wapx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appcpa.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,appdriver.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appdriver.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appfh.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,app-g.39.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,appget.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,appgift.sinaapp.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appjiagu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,applifier.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,applog.uc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,app-monitor.ele.me,🛑 全球拦截
+ - DOMAIN-SUFFIX,appnext.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,appodealx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apppic.yingyongbei.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apps.mobilityware.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,apps.outfit7.com,🛑 全球拦截
+ - DOMAIN-
