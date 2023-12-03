@@ -9,6 +9,8 @@ proxies:
   - {name: 🇭🇰 纳西妲丨Hong Kong / 商宽专线, server: 36.133.86.136, port: 38149, type: ss, cipher: aes-256-gcm, password: 0034e597-dbd3-4824-8c0a-8704fd6d90e8, tfo: false, udp: true}
   - {name: 🇭🇰 芙宁娜丨Hong Kong / 香港, server: 36.133.86.136, port: 38149, type: ss, cipher: aes-256-gcm, password: e079985f-cc02-4ee8-a6a8-b2975fb68859, tfo: false, udp: true}
   - {name: 🇸🇬 神里凌华丨Singapore / 新加坡, server: 5129.e2s.buzz, port: 26167, type: ss, cipher: aes-256-gcm, password: e079985f-cc02-4ee8-a6a8-b2975fb68859, tfo: false, udp: true}
+  - {name: 🇸🇬 甘雨丨Singapore / 新加坡测试节点, server: stzlzzb.starnetcn.top, port: 52657, type: vless, uuid: a84b0566-788e-44e6-8006-b04fd5d1ed43, tls: true, client-fingerprint: chrome, reality-opts: {public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU, short-id: 130ea22d}, tfo: false, servername: aa.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 宵宫| 韩国/家宽测试节点, server: kraz.starnetcn.top, port: 27381, type: vless, uuid: a84b0566-788e-44e6-8006-b04fd5d1ed43, tls: true, client-fingerprint: chrome, reality-opts: {public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU, short-id: 130ea22d}, tfo: false, servername: aa.com, flow: xtls-rprx-vision, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,6 +21,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,6 +32,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -38,6 +44,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,6 +68,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,6 +85,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
   - name: 📲 电报信息
     type: select
     proxies:
@@ -84,6 +96,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -94,6 +108,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -113,6 +129,8 @@ proxy-groups:
       - 🇭🇰 纳西妲丨Hong Kong / 商宽专线
       - 🇭🇰 芙宁娜丨Hong Kong / 香港
       - 🇸🇬 神里凌华丨Singapore / 新加坡
+      - 🇸🇬 甘雨丨Singapore / 新加坡测试节点
+      - 🇰🇷 宵宫| 韩国/家宽测试节点
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -1648,32 +1666,4 @@ rules:
  - DOMAIN-SUFFIX,api.y.igexin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,api.youxiaoad.com,🛑 全球拦截
  - DOMAIN-SUFFIX,api.zol.com,🛑 全球拦截
- - DOMAIN-SUFFIX,api2.play.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,api-flow.flyme.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,api-game.meizu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apihk.growingio.com,🛑 全球拦截
- - DOMAIN-SUFFIX,api-push.meizu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,api-shoulei-ssl.xunlei.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apisoft.df0535.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apk.idate520.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apk.supfast.net,🛑 全球拦截
- - DOMAIN-SUFFIX,apkdo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apkinfo.voole.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apklog.cp11.ott.cibntv.net,🛑 全球拦截
- - DOMAIN-SUFFIX,apm.suning.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,apnmedia.ask.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apns.ios.ijinshan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apollo.caixin.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.3987.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.9yyg.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,app.abc000.today,🛑 全球拦截
- - DOMAIN-SUFFIX,app.acm.dzwww.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.eduancm.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.houyi.baofeng.net,🛑 全球拦截
- - DOMAIN-SUFFIX,app.hytdsm.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.ibaiducdn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.jgyee.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.jiuzhilan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.juwang.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app.lz55.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,app.moji001.com,🛑 全球拦
+ - 
