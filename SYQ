@@ -1,367 +1,238 @@
-[General]
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
-dns-server = 114.114.114.114, 223.5.5.5, system
-always-real-ip = stun.l.google.com
-doh-server = https://doh.pub/dns-query
-
-[Proxy]
-🇭🇰三月七专线 = ss, 45.11.104.59, 2377, encrypt-method=chacha20-ietf-poly1305, password=t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, udp-relay=false, obfs=tls, obfs-host=f1f3227.fm.apple.com:111548
-🇭🇰三月七专线2 = ss, 45.11.104.94, 2377, encrypt-method=chacha20-ietf-poly1305, password=t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, udp-relay=false, obfs=tls, obfs-host=f1f3227.fm.apple.com:111548
-
-[Proxy Group]
-SelectGroup = select, 🇭🇰三月七专线, 🇭🇰三月七专线2
-[Rule]
-# Apple
-DOMAIN-SUFFIX,appsto.re,SelectGroup
-DOMAIN-SUFFIX,s.mzstatic.com,SelectGroup
-DOMAIN,gspe1-ssl.ls.apple.com,SelectGroup
-DOMAIN,news-events.apple.com,SelectGroup
-DOMAIN,news-client.apple.com,SelectGroup
-DOMAIN-SUFFIX,itunes.apple.com,SelectGroup
-DOMAIN-SUFFIX,lookup-api.apple.com,SelectGroup
-DOMAIN-SUFFIX,lcdn-registration.apple.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
-
-# Facebook
-DOMAIN-SUFFIX,cdninstagram.com,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,facebook.com,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,facebook.net,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,fb.com,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,fb.me,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,instagram.com,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.net,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.com,SelectGroup,force-remote-dns
-
-# Twitter
-DOMAIN-SUFFIX,t.co,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,twitter.com,SelectGroup,force-remote-dns
-
-# Google
-DOMAIN-SUFFIX,ampproject.com,SelectGroup
-DOMAIN-SUFFIX,ampproject.net,SelectGroup
-DOMAIN-SUFFIX,ampproject.org,SelectGroup
-DOMAIN-SUFFIX,android.com,SelectGroup
-DOMAIN-SUFFIX,blogspot.com,SelectGroup
-DOMAIN-SUFFIX,blogspot.hk,SelectGroup
-DOMAIN-SUFFIX,g.co,SelectGroup
-DOMAIN-SUFFIX,ggpht.com,SelectGroup
-DOMAIN-SUFFIX,goo.gl,SelectGroup
-DOMAIN-SUFFIX,googleusercontent.com,SelectGroup
-DOMAIN-SUFFIX,googlevideo.com,SelectGroup
-DOMAIN-SUFFIX,gstatic.com,SelectGroup
-DOMAIN-SUFFIX,gstatic.cn,SelectGroup
-DOMAIN-SUFFIX,gvt0.com,SelectGroup
-DOMAIN-SUFFIX,gvt1.com,SelectGroup
-DOMAIN-SUFFIX,gvt2.com,SelectGroup
-DOMAIN-SUFFIX,gvt3.com,SelectGroup
-DOMAIN-SUFFIX,youtu.be,SelectGroup
-DOMAIN-SUFFIX,youtube.com,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,youtube-nocookie.com,SelectGroup
-DOMAIN-SUFFIX,ytimg.com,SelectGroup
-DOMAIN,accounts.google.com,SelectGroup,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,appspot.com,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,googleapis.cn,SelectGroup,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googleapis.com,SelectGroup,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,googlesource.com,SelectGroup,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,google.com,SelectGroup,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,gmail.com,SelectGroup,force-remote-dns
-DOMAIN-KEYWORD,google,SelectGroup,force-remote-dns
-
-# Netflix
-DOMAIN-SUFFIX,netflix.com,SelectGroup
-DOMAIN-SUFFIX,netflix.net,SelectGroup
-DOMAIN-SUFFIX,nflxext.com,SelectGroup
-DOMAIN-SUFFIX,nflximg.com,SelectGroup
-DOMAIN-SUFFIX,nflximg.net,SelectGroup
-DOMAIN-SUFFIX,nflxso.net,SelectGroup
-DOMAIN-SUFFIX,nflxvideo.net,SelectGroup
-
-# BAT
-DOMAIN-SUFFIX,baidu.com,DIRECT
-DOMAIN-SUFFIX,baidupcs.com,DIRECT
-DOMAIN-SUFFIX,bdimg.com,DIRECT
-DOMAIN-SUFFIX,bdstatic.com,DIRECT
-DOMAIN-SUFFIX,alipay.com,DIRECT
-DOMAIN-SUFFIX,alipayobjects.com,DIRECT
-DOMAIN-SUFFIX,alicdn.com,DIRECT
-DOMAIN-SUFFIX,aliyun.com,DIRECT
-DOMAIN-SUFFIX,aliyuncs.com,DIRECT
-DOMAIN-SUFFIX,taobao.com,DIRECT
-DOMAIN-SUFFIX,tmall.com,DIRECT
-DOMAIN-SUFFIX,qq.com,DIRECT
-DOMAIN-SUFFIX,qqurl.com,DIRECT
-
-# China
-DOMAIN-SUFFIX,cn,DIRECT
-DOMAIN-SUFFIX,126.net,DIRECT
-DOMAIN-SUFFIX,163.com,DIRECT
-DOMAIN-SUFFIX,163.net,DIRECT
-DOMAIN-SUFFIX,amap.com,DIRECT
-DOMAIN-SUFFIX,autonavi.com,DIRECT
-DOMAIN-SUFFIX,ccgslb.com,DIRECT
-DOMAIN-SUFFIX,ccgslb.net,DIRECT
-DOMAIN-SUFFIX,cnbeta.com,DIRECT
-DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
-DOMAIN-SUFFIX,douban.com,DIRECT
-DOMAIN-SUFFIX,doubanio.com,DIRECT
-DOMAIN-SUFFIX,gtimg.com,DIRECT
-DOMAIN-SUFFIX,hao123.com,DIRECT
-DOMAIN-SUFFIX,haosou.com,DIRECT
-DOMAIN-SUFFIX,ifeng.com,DIRECT
-DOMAIN-SUFFIX,iqiyi.com,DIRECT
-DOMAIN-SUFFIX,jd.com,DIRECT
-DOMAIN-SUFFIX,mi.com,DIRECT
-DOMAIN-SUFFIX,miui.com,DIRECT
-DOMAIN-SUFFIX,netease.com,DIRECT
-DOMAIN-SUFFIX,netease.im,DIRECT
-DOMAIN-SUFFIX,qdaily.com,DIRECT
-DOMAIN-SUFFIX,qhimg.com,DIRECT
-DOMAIN-SUFFIX,qihucdn.com,DIRECT
-DOMAIN-SUFFIX,qiniucdn.com,DIRECT
-DOMAIN-SUFFIX,qiniudn.com,DIRECT
-DOMAIN-SUFFIX,sogou.com,DIRECT
-DOMAIN-SUFFIX,sogoucdn.com,DIRECT
-DOMAIN-SUFFIX,sohu.com,DIRECT
-DOMAIN-SUFFIX,steamstatic.com,DIRECT
-DOMAIN-SUFFIX,suning.com,DIRECT
-DOMAIN-SUFFIX,tudou.com,DIRECT
-DOMAIN-SUFFIX,upaiyun.com,DIRECT
-DOMAIN-SUFFIX,clouddn.com,DIRECT
-DOMAIN-SUFFIX,upyun.com,DIRECT
-DOMAIN-SUFFIX,weibo.com,DIRECT
-DOMAIN-SUFFIX,youku.com,DIRECT
-DOMAIN-SUFFIX,xunlei.com,DIRECT
-DOMAIN-SUFFIX,zhihu.com,DIRECT
-DOMAIN-SUFFIX,zhimg.com,DIRECT
-
-DOMAIN,ip.bjango.com,DIRECT
-
-# Blocked
-DOMAIN-SUFFIX,9to5mac.com,SelectGroup
-DOMAIN-SUFFIX,abpchina.org,SelectGroup
-DOMAIN-SUFFIX,adblockplus.org,SelectGroup
-DOMAIN-SUFFIX,akamaihd.net,SelectGroup
-DOMAIN-SUFFIX,amazon.com,SelectGroup
-DOMAIN-SUFFIX,amazonaws.com,SelectGroup,enhanced-mode
-DOMAIN-SUFFIX,amplitude.com,SelectGroup
-DOMAIN-SUFFIX,angularjs.org,SelectGroup
-DOMAIN-SUFFIX,aol.com,SelectGroup
-DOMAIN-SUFFIX,aolcdn.com,SelectGroup
-DOMAIN-SUFFIX,arcgis.com,SelectGroup
-DOMAIN-SUFFIX,archive.org,SelectGroup
-DOMAIN-SUFFIX,aspnetcdn.com,SelectGroup
-DOMAIN-SUFFIX,att.com,SelectGroup
-DOMAIN-SUFFIX,awsstatic.com,SelectGroup
-DOMAIN-SUFFIX,azureedge.net,SelectGroup
-DOMAIN-SUFFIX,azurewebsites.net,SelectGroup
-DOMAIN-SUFFIX,bbc.com,SelectGroup
-DOMAIN-SUFFIX,bbc.co,SelectGroup
-DOMAIN-SUFFIX,bintray.com,SelectGroup,enhanced-mode
-DOMAIN-SUFFIX,bit.com,SelectGroup
-DOMAIN-SUFFIX,bit.ly,SelectGroup
-DOMAIN-SUFFIX,bitbucket.org,SelectGroup
-DOMAIN-SUFFIX,blog.com,SelectGroup
-DOMAIN-SUFFIX,blogcdn.com,SelectGroup
-DOMAIN-SUFFIX,blogger.com,SelectGroup
-DOMAIN-SUFFIX,blogsmithmedia.com,SelectGroup
-DOMAIN-SUFFIX,bloomberg.com,SelectGroup
-DOMAIN-SUFFIX,box.net,SelectGroup
-DOMAIN-SUFFIX,box.com,SelectGroup
-DOMAIN-SUFFIX,cachefly.net,SelectGroup
-DOMAIN-SUFFIX,chromium.org,SelectGroup
-DOMAIN-SUFFIX,cl.ly,SelectGroup
-DOMAIN-SUFFIX,cloudflare.com,SelectGroup
-DOMAIN-SUFFIX,cloudfront.net,SelectGroup
-DOMAIN-SUFFIX,cloudmagic.com,SelectGroup
-DOMAIN-SUFFIX,cnet.com,SelectGroup
-DOMAIN-SUFFIX,cocoapods.org,SelectGroup
-DOMAIN-SUFFIX,cocoapods.org,SelectGroup
-DOMAIN-SUFFIX,culturedcode.com,SelectGroup
-DOMAIN-SUFFIX,d.pr,SelectGroup
-DOMAIN-SUFFIX,dayone.me,SelectGroup
-DOMAIN-SUFFIX,digicert.com,SelectGroup
-DOMAIN-SUFFIX,discord.gg,SelectGroup
-DOMAIN-SUFFIX,discordapp.com,SelectGroup
-DOMAIN-SUFFIX,discordapp.net,SelectGroup
-DOMAIN-SUFFIX,disq.us,SelectGroup
-DOMAIN-SUFFIX,disqus.com,SelectGroup
-DOMAIN-SUFFIX,disquscdn.com,SelectGroup
-DOMAIN-SUFFIX,dnsimple.com,SelectGroup
-DOMAIN-SUFFIX,docker.com,SelectGroup
-DOMAIN-SUFFIX,dribbble.com,SelectGroup
-DOMAIN-SUFFIX,dropbox.com,SelectGroup
-DOMAIN-SUFFIX,dropboxapi.com,SelectGroup
-DOMAIN-SUFFIX,dropboxstatic.com,SelectGroup
-DOMAIN-SUFFIX,dropboxusercontent.com,SelectGroup
-DOMAIN-SUFFIX,droplr.com,SelectGroup
-DOMAIN-SUFFIX,duckduckgo.com,SelectGroup
-DOMAIN-SUFFIX,edgecastcdn.net,SelectGroup
-DOMAIN-SUFFIX,edgesuite.net,SelectGroup
-DOMAIN-SUFFIX,engadget.com,SelectGroup
-DOMAIN-SUFFIX,entrust.net,SelectGroup
-DOMAIN-SUFFIX,evernote.com,SelectGroup
-DOMAIN-SUFFIX,fabric.io,SelectGroup
-DOMAIN-SUFFIX,fastly.net,SelectGroup
-DOMAIN-SUFFIX,fc2.com,SelectGroup
-DOMAIN-SUFFIX,feedburner.com,SelectGroup
-DOMAIN-SUFFIX,feedly.com,SelectGroup
-DOMAIN-SUFFIX,feedsportal.com,SelectGroup
-DOMAIN-SUFFIX,flickr.com,SelectGroup
-DOMAIN-SUFFIX,gitbooks.io,SelectGroup
-DOMAIN-SUFFIX,git.io,SelectGroup
-DOMAIN-SUFFIX,github.com,SelectGroup,enhanced-mode
-DOMAIN-SUFFIX,github.io,SelectGroup
-DOMAIN-SUFFIX,githubapp.com,SelectGroup
-DOMAIN-SUFFIX,githubusercontent.com,SelectGroup,enhanced-mode
-DOMAIN-SUFFIX,globalsign.com,SelectGroup
-DOMAIN-SUFFIX,gmodules.com,SelectGroup
-DOMAIN-SUFFIX,godaddy.com,SelectGroup
-DOMAIN-SUFFIX,golang.org,SelectGroup
-DOMAIN-SUFFIX,goodreaders.com,SelectGroup
-DOMAIN-SUFFIX,goodreads.com,SelectGroup
-DOMAIN-SUFFIX,graphql.org,SelectGroup
-DOMAIN-SUFFIX,gravatar.com,SelectGroup
-DOMAIN-SUFFIX,gumroad.com,SelectGroup
-DOMAIN-SUFFIX,heroku.com,SelectGroup
-DOMAIN-SUFFIX,herokucdn.com,SelectGroup
-DOMAIN-SUFFIX,hotmail.com,SelectGroup
-DOMAIN-SUFFIX,ift.tt,SelectGroup
-DOMAIN-SUFFIX,ifttt.com,SelectGroup
-DOMAIN-SUFFIX,imageshack.us,SelectGroup
-DOMAIN-SUFFIX,img.ly,SelectGroup
-DOMAIN-SUFFIX,imgur.com,SelectGroup
-DOMAIN-SUFFIX,instapaper.com,SelectGroup
-DOMAIN-SUFFIX,ipfs.io,SelectGroup
-DOMAIN-SUFFIX,ipn.li,SelectGroup
-DOMAIN-SUFFIX,is.gd,SelectGroup
-DOMAIN-SUFFIX,j.mp,SelectGroup
-DOMAIN-SUFFIX,jshint.com,SelectGroup
-DOMAIN-SUFFIX,kat.cr,SelectGroup
-DOMAIN-SUFFIX,libsyn.com,SelectGroup
-DOMAIN-SUFFIX,licdn.com,SelectGroup
-DOMAIN-SUFFIX,linkedin.com,SelectGroup
-DOMAIN-SUFFIX,linode.com,SelectGroup
-DOMAIN-SUFFIX,lithium.com,SelectGroup
-DOMAIN-SUFFIX,littlehj.com,SelectGroup
-DOMAIN-SUFFIX,live.com,SelectGroup
-DOMAIN-SUFFIX,live.net,SelectGroup
-DOMAIN-SUFFIX,mathjax.org,SelectGroup
-DOMAIN-SUFFIX,medium.com,SelectGroup
-DOMAIN-SUFFIX,mega.co.nz,SelectGroup
-DOMAIN-SUFFIX,mega.nz,SelectGroup
-DOMAIN-SUFFIX,megaupload.com,SelectGroup
-DOMAIN-SUFFIX,mobile01.com,SelectGroup
-DOMAIN-SUFFIX,modmyi.com,SelectGroup
-DOMAIN-SUFFIX,name.com,SelectGroup
-DOMAIN-SUFFIX,nextmedia.com,SelectGroup
-DOMAIN-SUFFIX,nintendo.com,SelectGroup
-DOMAIN-SUFFIX,nyti.ms,SelectGroup
-DOMAIN-SUFFIX,nytimes.com,SelectGroup
-DOMAIN-SUFFIX,nytimg.com,SelectGroup
-DOMAIN-SUFFIX,nytstyle.com,SelectGroup
-DOMAIN-SUFFIX,nyt.com,SelectGroup
-DOMAIN-SUFFIX,omnigroup.com,SelectGroup
-DOMAIN-SUFFIX,onenote.com,SelectGroup
-DOMAIN-SUFFIX,openvpn.net,SelectGroup
-DOMAIN-SUFFIX,openwrt.org,SelectGroup
-DOMAIN-SUFFIX,ow.ly,SelectGroup
-DOMAIN-SUFFIX,pastebin.com,SelectGroup
-DOMAIN-SUFFIX,pandora.com,SelectGroup
-DOMAIN-SUFFIX,pinterest.com,SelectGroup
-DOMAIN-SUFFIX,pinimg.com,SelectGroup
-DOMAIN-SUFFIX,periscope.tv,SelectGroup
-DOMAIN-SUFFIX,pinboard.in,SelectGroup
-DOMAIN-SUFFIX,pixiv.net,SelectGroup
-DOMAIN-SUFFIX,pixiv.org,SelectGroup
-DOMAIN-SUFFIX,playpcesor.com,SelectGroup
-DOMAIN-SUFFIX,skype.com,SelectGroup
-DOMAIN-SUFFIX,slack.com,SelectGroup
-DOMAIN-SUFFIX,slack-edge.com,SelectGroup
-DOMAIN-SUFFIX,slack-msgs.com,SelectGroup
-DOMAIN-SUFFIX,smartmailcloud.com,SelectGroup
-DOMAIN-SUFFIX,sndcdn.com,SelectGroup
-DOMAIN-SUFFIX,soundcloud.com,SelectGroup
-DOMAIN-SUFFIX,sourceforge.net,SelectGroup,enhanced-mode
-DOMAIN-SUFFIX,sourceforge.io,SelectGroup,enhanced-mode
-DOMAIN-SUFFIX,speakerdeck.com,SelectGroup
-DOMAIN-SUFFIX,spotify.com,SelectGroup
-DOMAIN-SUFFIX,squarespace.com,SelectGroup
-DOMAIN-SUFFIX,sstatic.net,SelectGroup
-DOMAIN-SUFFIX,stackoverflow.com,SelectGroup
-DOMAIN-SUFFIX,staticflickr.com,SelectGroup
-DOMAIN-SUFFIX,steamcommunity.com,SelectGroup
-DOMAIN-SUFFIX,symauth.com,SelectGroup
-DOMAIN-SUFFIX,symcb.com,SelectGroup
-DOMAIN-SUFFIX,symcd.com,SelectGroup
-DOMAIN-SUFFIX,tapbots.com,SelectGroup
-DOMAIN-SUFFIX,tapbots.net,SelectGroup
-DOMAIN-SUFFIX,techcrunch.com,SelectGroup
-DOMAIN-SUFFIX,textnow.me,SelectGroup
-DOMAIN-SUFFIX,theinitium.com,SelectGroup
-DOMAIN-SUFFIX,telegram.org,SelectGroup
-DOMAIN-SUFFIX,telegram.me,SelectGroup
-DOMAIN-SUFFIX,telegra.ph,SelectGroup
-DOMAIN-SUFFIX,tdesktop.com,SelectGroup
-DOMAIN-SUFFIX,t.me,SelectGroup
-DOMAIN-SUFFIX,thepiratebay.org,SelectGroup
-DOMAIN-SUFFIX,tiny.cc,SelectGroup
-DOMAIN-SUFFIX,tinypic.com,SelectGroup
-DOMAIN-SUFFIX,tmblr.co,SelectGroup
-DOMAIN-SUFFIX,trello.com,SelectGroup
-DOMAIN-SUFFIX,trellocdn.com,SelectGroup
-DOMAIN-SUFFIX,tumblr.com,SelectGroup
-DOMAIN-SUFFIX,twitch.tv,SelectGroup
-DOMAIN-SUFFIX,txmblr.com,SelectGroup
-DOMAIN-SUFFIX,typekit.net,SelectGroup
-DOMAIN-SUFFIX,ubnt.com,SelectGroup
-DOMAIN-SUFFIX,urchin.com,SelectGroup
-DOMAIN-SUFFIX,v.gd,SelectGroup
-DOMAIN-SUFFIX,vimeo.com,SelectGroup
-DOMAIN-SUFFIX,vimeocdn.com,SelectGroup
-DOMAIN-SUFFIX,vine.co,SelectGroup
-DOMAIN-SUFFIX,vox-cdn.com,SelectGroup
-DOMAIN-SUFFIX,vsco.co,SelectGroup
-DOMAIN-SUFFIX,w3schools.com,SelectGroup
-DOMAIN-SUFFIX,weather.com,SelectGroup
-DOMAIN-SUFFIX,wikimedia.org,SelectGroup
-DOMAIN-SUFFIX,wikipedia.com,SelectGroup
-DOMAIN-SUFFIX,wikipedia.org,SelectGroup
-DOMAIN-SUFFIX,windows.net,SelectGroup
-DOMAIN-SUFFIX,wordpress.com,SelectGroup
-DOMAIN-SUFFIX,wp.com,SelectGroup
-DOMAIN-SUFFIX,wsj.com,SelectGroup
-DOMAIN-SUFFIX,wsj.net,SelectGroup
-DOMAIN-SUFFIX,yahoo.com,SelectGroup
-DOMAIN-SUFFIX,yahoo.net,SelectGroup
-DOMAIN-SUFFIX,yimg.com,SelectGroup
-DOMAIN-SUFFIX,ying.com,SelectGroup
-
-# Line
-DOMAIN-SUFFIX,scdn.co,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,line.naver.jp,SelectGroup,force-remote-dns
-DOMAIN-SUFFIX,line.me,SelectGroup
-DOMAIN-SUFFIX,line-apps.com,SelectGroup
-DOMAIN-SUFFIX,line-cdn.net,SelectGroup
-DOMAIN-SUFFIX,line-scdn.net,SelectGroup
-
-# Telegram
-IP-CIDR,91.108.56.0/22,SelectGroup,no-resolve
-IP-CIDR,91.108.4.0/22,SelectGroup,no-resolve
-IP-CIDR,91.108.8.0/22,SelectGroup,no-resolve
-IP-CIDR,109.239.140.0/24,SelectGroup,no-resolve
-IP-CIDR,149.154.160.0/20,SelectGroup,no-resolve
-IP-CIDR,149.154.164.0/22,SelectGroup,no-resolve
-
-# LAN
-DOMAIN-SUFFIX,local,DIRECT
-IP-CIDR,192.168.0.0/16,DIRECT
-IP-CIDR,10.0.0.0/8,DIRECT
-IP-CIDR,172.16.0.0/12,DIRECT
-IP-CIDR,127.0.0.0/8,DIRECT
-IP-CIDR,100.64.0.0/10,DIRECT
-
-# Final
-GEOIP,CN,DIRECT
-FINAL,SelectGroup
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+geodata-mode: true
+geox-url:
+  geoip: https://gitdl.cn/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat
+  mmdb: https://gitdl.cn/https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://doh.dns.sb/dns-query
+  - https://dns.cloudflare.com/dns-query
+  - https://dns.twnic.tw/dns-query
+  - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: true
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+proxies:
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰 HK_01
+  obfs: ''
+  obfs-password: ''
+  password: fEGTaQZy3yZMsqZPx7Qhd78WtdA
+  port: '5472'
+  server: 156.254.115.158
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰 HK_02
+  obfs: ''
+  obfs-password: ''
+  password: wLYR3sWLxwod9o95Fya7YCEQsWE
+  port: '11912'
+  server: 18.162.115.219
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵 JP_03
+  obfs: ''
+  obfs-password: ''
+  password: D3IW0wzM6rqrMthdyfykh1rUp0
+  port: '6600'
+  server: 15.220.86.152
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇯🇵 JP_04
+  obfs: ''
+  obfs-password: ''
+  password: 1ZUTrnp1duzWhhjWkPJgJQuBtVo
+  port: '3204'
+  server: 43.206.215.239
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬 SG_05
+  obfs: ''
+  obfs-password: ''
+  password: Idp9xVrG1a7xl1LFMICQLh1p0bM
+  port: '28924'
+  server: 18.139.227.179
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬 SG_06
+  obfs: ''
+  obfs-password: ''
+  password: 5yT5UUMoBqNCk1yWNFYwvN2ei70
+  port: '28563'
+  server: 18.141.12.238
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬 SG_07
+  obfs: ''
+  obfs-password: ''
+  password: uu0n9ZZPdbLZBBD9Qu4XXKA
+  port: '6922'
+  server: 47.129.250.172
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬 SG_08
+  obfs: ''
+  obfs-password: ''
+  password: D2APNF0naSXKpOZoe376Ycn1BM
+  port: '26752'
+  server: 54.255.180.38
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸 US_09
+  obfs: ''
+  obfs-password: ''
+  password: MKUyZ34B1ydqIb7or3eSEVTbew
+  port: '16229'
+  server: 3.145.2.2
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸 US_10
+  obfs: ''
+  obfs-password: ''
+  password: yaXNJnZpBEodZEedFIhVO8mQug
+  port: '31468'
+  server: 34.219.59.245
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸 US_11
+  obfs: ''
+  obfs-password: ''
+  password: kTkk4HzdDdXq7jKSY4nEcm8xVE
+  port: '32324'
+  server: 34.232.112.197
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: ''
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK_13
+  password: e868905a-a875-43c6-bfd4-bf4cf851e8d3
+  port: 34338
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK_14
+  password: 36add0b3-ae5e-4b4e-8f59-832345202422
+  port: 34338
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 HK_15
+  password: 2bb07711-4cfa-420b-9b66-60791a65c99c
+  port: 34338
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇯🇵 JP_19
+  password: amazonskr05
+  port: 443
+  server: 57.180.49.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP_21
+  password: 36add0b3-ae5e-4b4e-8f59-832345202422
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP_23
+  password: e868905a-a875-43c6-bfd4-bf4cf851e8d3
+  port: 20008
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP_26
+  password: 66895bca-38c6-414c-ba33-43efe3b935c2
+  port: 20006
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP_27
+  password: 2bb07711-4cfa-420b-9b66-60791a65c99c
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP_28
+  password: e868905a-a875-43c6-bfd4-bf4cf851e8d3
+  port: 20004
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP_29
+  password: 2bb07711-4cfa-420b-9b66-60791a65c99c
+  port: 20006
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP_30
+  password: 2bb07711-
