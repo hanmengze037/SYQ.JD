@@ -5,22 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港机宽-01, server: w72tapyb.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: RQ3PEYNGBPHPOV79, udp: true}
-  - {name: 🇭🇰 香港机宽-02, server: w72tapyb.slashdevslashnetslashtun.net, port: 15012, type: ss, cipher: aes-256-gcm, password: SNWJ7ATZSJAI4VBG, udp: true}
-  - {name: 🇭🇰 香港机宽-03, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15005, type: ss, cipher: aes-256-gcm, password: J78BKYY4RYLJHFSO, udp: true}
-  - {name: 🇭🇰 香港商宽-01, server: ti3hyra4.slashdevslashnetslashtun.net, port: 15009, type: ss, cipher: aes-256-gcm, password: VD1FBE1ELX5BOA6U, udp: true}
-  - {name: 🇭🇰 香港商宽-02, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: 4J3R0TWCKTM72E69, udp: true}
-  - {name: 🇭🇰 香港商宽-03, server: w72tapyb.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 4R4KR5Q11DYHI4RT, udp: true}
-  - {name: 🇸🇬 新加坡家宽-01, server: qh62onjn.slashdevslashnetslashtun.net, port: 16003, type: ss, cipher: aes-256-gcm, password: U93D415O0ELVQKV7, udp: true}
-  - {name: 🇸🇬 新加坡家宽-02, server: w72tapyb.slashdevslashnetslashtun.net, port: 16004, type: ss, cipher: aes-256-gcm, password: CGSFADWOZIQ233FW, udp: true}
-  - {name: 🇸🇬 新加坡商宽-01, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: 2WHHF2WO4F60JL5A, udp: true}
-  - {name: 🇸🇬 新加坡商宽-02, server: w72tapyb.slashdevslashnetslashtun.net, port: 16012, type: ss, cipher: aes-256-gcm, password: U7LUNF7LQZIFLL7F, udp: true}
-  - {name: 🇸🇬 新加坡商宽-03, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: aes-256-gcm, password: WMSY5F5A9MKJ57PN, udp: true}
-  - {name: 🇸🇬 新加坡机宽-01, server: qh62onjn.slashdevslashnetslashtun.net, port: 16007, type: ss, cipher: aes-256-gcm, password: CPVTFOZCEG9OQ6PI, udp: true}
-  - {name: 🇸🇬 新加坡机宽-02, server: qh62onjn.slashdevslashnetslashtun.net, port: 16011, type: ss, cipher: aes-256-gcm, password: 1CSE3494SQQQ4ZHE, udp: true}
-  - {name: 🇸🇬 新加坡机宽-03, server: qh62onjn.slashdevslashnetslashtun.net, port: 16015, type: ss, cipher: aes-256-gcm, password: GFMGE0POI0J4I400, udp: true}
-  - {name: 🇯🇵 日本家宽, server: qh62onjn.slashdevslashnetslashtun.net, port: 18003, type: ss, cipher: aes-256-gcm, password: QKCRLSDAAGPIDH18, udp: true}
-  - {name: 🇺🇸 美国家宽-原生IP, server: qh62onjn.slashdevslashnetslashtun.net, port: 17003, type: ss, cipher: aes-256-gcm, password: ODWNN4QUGZR0GQ8C, udp: true}
+  - {name: "[SS] 🇭🇰 香港商宽-01", server: ti3hyra4.slashdevslashnetslashtun.net, port: 15009, type: ss, cipher: aes-256-gcm, password: VD1FBE1ELX5BOA6U, udp: true}
+  - {name: "[SS] 🇭🇰 香港商宽-02", server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: 4J3R0TWCKTM72E69, udp: true}
+  - {name: "[SS] 🇭🇰 香港商宽-03", server: w72tapyb.slashdevslashnetslashtun.net, port: 15008, type: ss, cipher: aes-256-gcm, password: 4R4KR5Q11DYHI4RT, udp: true}
+  - {name: "[SS] 🇭🇰 香港机宽-01", server: w72tapyb.slashdevslashnetslashtun.net, port: 15004, type: ss, cipher: aes-256-gcm, password: RQ3PEYNGBPHPOV79, udp: true}
+  - {name: "[SS] 🇭🇰 香港机宽-02", server: w72tapyb.slashdevslashnetslashtun.net, port: 15012, type: ss, cipher: aes-256-gcm, password: SNWJ7ATZSJAI4VBG, udp: true}
+  - {name: "[SS] 🇭🇰 香港机宽-03", server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15005, type: ss, cipher: aes-256-gcm, password: J78BKYY4RYLJHFSO, udp: true}
+  - {name: "[SS] 🇯🇵 日本家宽", server: qh62onjn.slashdevslashnetslashtun.net, port: 18003, type: ss, cipher: aes-256-gcm, password: QKCRLSDAAGPIDH18, udp: true}
+  - {name: "[SS] 🇸🇬 新加坡商宽-01", server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16005, type: ss, cipher: aes-256-gcm, password: 2WHHF2WO4F60JL5A, udp: true}
+  - {name: "[SS] 🇸🇬 新加坡商宽-02", server: w72tapyb.slashdevslashnetslashtun.net, port: 16012, type: ss, cipher: aes-256-gcm, password: U7LUNF7LQZIFLL7F, udp: true}
+  - {name: "[SS] 🇸🇬 新加坡商宽-03", server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16013, type: ss, cipher: aes-256-gcm, password: WMSY5F5A9MKJ57PN, udp: true}
+  - {name: "[SS] 🇸🇬 新加坡家宽-01", server: qh62onjn.slashdevslashnetslashtun.net, port: 16003, type: ss, cipher: aes-256-gcm, password: U93D415O0ELVQKV7, udp: true}
+  - {name: "[SS] 🇸🇬 新加坡家宽-02", server: w72tapyb.slashdevslashnetslashtun.net, port: 16004, type: ss, cipher: aes-256-gcm, password: CGSFADWOZIQ233FW, udp: true}
+  - {name: "[SS] 🇸🇬 新加坡机宽", server: qh62onjn.slashdevslashnetslashtun.net, port: 16011, type: ss, cipher: aes-256-gcm, password: 1CSE3494SQQQ4ZHE, udp: true}
+  - {name: "[SS] 🇺🇸 美国家宽-原生IP", server: qh62onjn.slashdevslashnetslashtun.net, port: 17003, type: ss, cipher: aes-256-gcm, password: ODWNN4QUGZR0GQ8C, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -31,22 +29,20 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 🇭🇰 香港机宽-01
-      - 🇭🇰 香港机宽-02
-      - 🇭🇰 香港机宽-03
-      - 🇭🇰 香港商宽-01
-      - 🇭🇰 香港商宽-02
-      - 🇭🇰 香港商宽-03
-      - 🇸🇬 新加坡家宽-01
-      - 🇸🇬 新加坡家宽-02
-      - 🇸🇬 新加坡商宽-01
-      - 🇸🇬 新加坡商宽-02
-      - 🇸🇬 新加坡商宽-03
-      - 🇸🇬 新加坡机宽-01
-      - 🇸🇬 新加坡机宽-02
-      - 🇸🇬 新加坡机宽-03
-      - 🇯🇵 日本家宽
-      - 🇺🇸 美国家宽-原生IP
+      - "[SS] 🇭🇰 香港商宽-01"
+      - "[SS] 🇭🇰 香港商宽-02"
+      - "[SS] 🇭🇰 香港商宽-03"
+      - "[SS] 🇭🇰 香港机宽-01"
+      - "[SS] 🇭🇰 香港机宽-02"
+      - "[SS] 🇭🇰 香港机宽-03"
+      - "[SS] 🇯🇵 日本家宽"
+      - "[SS] 🇸🇬 新加坡商宽-01"
+      - "[SS] 🇸🇬 新加坡商宽-02"
+      - "[SS] 🇸🇬 新加坡商宽-03"
+      - "[SS] 🇸🇬 新加坡家宽-01"
+      - "[SS] 🇸🇬 新加坡家宽-02"
+      - "[SS] 🇸🇬 新加坡机宽"
+      - "[SS] 🇺🇸 美国家宽-原生IP"
   - name: Apple
     type: select
     proxies:
@@ -72,7 +68,7 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 🇺🇸 美国家宽-原生IP
+      - "[SS] 🇺🇸 美国家宽-原生IP"
   - name: StreamingSE
     type: select
     proxies:
@@ -100,23 +96,21 @@ proxy-groups:
   - name: HK
     type: select
     proxies:
-      - 🇭🇰 香港机宽-01
-      - 🇭🇰 香港机宽-02
-      - 🇭🇰 香港机宽-03
-      - 🇭🇰 香港商宽-01
-      - 🇭🇰 香港商宽-02
-      - 🇭🇰 香港商宽-03
+      - "[SS] 🇭🇰 香港商宽-01"
+      - "[SS] 🇭🇰 香港商宽-02"
+      - "[SS] 🇭🇰 香港商宽-03"
+      - "[SS] 🇭🇰 香港机宽-01"
+      - "[SS] 🇭🇰 香港机宽-02"
+      - "[SS] 🇭🇰 香港机宽-03"
   - name: SG
     type: select
     proxies:
-      - 🇸🇬 新加坡家宽-01
-      - 🇸🇬 新加坡家宽-02
-      - 🇸🇬 新加坡商宽-01
-      - 🇸🇬 新加坡商宽-02
-      - 🇸🇬 新加坡商宽-03
-      - 🇸🇬 新加坡机宽-01
-      - 🇸🇬 新加坡机宽-02
-      - 🇸🇬 新加坡机宽-03
+      - "[SS] 🇸🇬 新加坡商宽-01"
+      - "[SS] 🇸🇬 新加坡商宽-02"
+      - "[SS] 🇸🇬 新加坡商宽-03"
+      - "[SS] 🇸🇬 新加坡家宽-01"
+      - "[SS] 🇸🇬 新加坡家宽-02"
+      - "[SS] 🇸🇬 新加坡机宽"
   - name: TW
     type: select
     proxies:
@@ -124,13 +118,13 @@ proxy-groups:
   - name: JP
     type: select
     proxies:
-      - 🇯🇵 日本家宽
+      - "[SS] 🇯🇵 日本家宽"
   - name: US
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - 🇺🇸 美国家宽-原生IP
+      - "[SS] 🇺🇸 美国家宽-原生IP"
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,REJECT
   - DOMAIN-SUFFIX,186078.com,REJECT
@@ -523,22 +517,6 @@ rules:
   - DOMAIN-SUFFIX,wunderlist.com,MicroSoft
   - DOMAIN-SUFFIX,yammer.com,MicroSoft
   - DOMAIN-SUFFIX,yammerusercontent.com,MicroSoft
-  - DOMAIN-SUFFIX,t.me,Telegram
-  - DOMAIN-SUFFIX,tdesktop.com,Telegram
-  - DOMAIN-SUFFIX,telegra.ph,Telegram
-  - DOMAIN-SUFFIX,telegram.me,Telegram
-  - DOMAIN-SUFFIX,telegram.org,Telegram
-  - DOMAIN-SUFFIX,telesco.pe,Telegram
-  - IP-CIDR,91.108.4.0/22,Telegram,no-resolve
-  - IP-CIDR,91.108.8.0/22,Telegram,no-resolve
-  - IP-CIDR,91.108.12.0/22,Telegram,no-resolve
-  - IP-CIDR,91.108.16.0/22,Telegram,no-resolve
-  - IP-CIDR,91.108.20.0/22,Telegram,no-resolve
-  - IP-CIDR,91.108.56.0/22,Telegram,no-resolve
-  - IP-CIDR,149.154.160.0/20,Telegram,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,Telegram,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,Telegram,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,Telegram,no-resolve
   - DOMAIN-SUFFIX,himalaya.com,Streaming
   - DOMAIN-SUFFIX,deezer.com,Streaming
   - DOMAIN-SUFFIX,dzcdn.net,Streaming
