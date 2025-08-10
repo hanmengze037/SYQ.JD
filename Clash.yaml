@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf
-  name: 香港 Alice 01
+  name: 🇭🇰香港 IEPL 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -12,7 +12,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 香港 AKILE 02
+  name: 🇭🇰香港 IEPL 02
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -24,7 +24,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 香港 GCore 03
+  name: 🇭🇰香港 IEPL 03
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -36,7 +36,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 新加坡 AKILE 01
+  name: 🇸🇬新加坡 IEPL 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -48,7 +48,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡 AKILE 02
+  name: 🇸🇬新加坡 IEPL 02
   password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
   port: 33733
   server: SGone.papermsg.com
@@ -56,7 +56,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 日本 Akamai 01
+  name: 🇯🇵日本 IEPL 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -68,7 +68,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 日本 Akamai 02
+  name: 🇯🇵日本 IEPL 02
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -80,7 +80,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: 台湾 AKILE 01
+  name: 🇨🇳台湾 IEPL 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -92,7 +92,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 台湾 DCBG 02
+  name: 🇨🇳台湾 IEPL 02
   password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
   port: 32773
   server: TWtwo.papermsg.com
@@ -100,7 +100,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: 台湾 AKILE 03
+  name: 🇨🇳台湾 IEPL 03
   obfs: plain
   obfs-param: ''
   password: MAYING
