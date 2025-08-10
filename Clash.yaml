@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf
-  name: HK Alice 01
+  name: 香港 Alice 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -12,7 +12,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: HK AKILE 02
+  name: 香港 AKILE 02
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -24,7 +24,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: HK GCore 03
+  name: 香港 GCore 03
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -36,31 +36,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: SG Akamai 01
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1358
-  protocol: auth_aes128_md5
-  protocol-param: 10967:123456
-  server: 59.37.173.57
-  tfo: true
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: SG BAGE 01
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1354
-  protocol: auth_aes128_md5
-  protocol-param: 10967:123456
-  server: 122.13.138.134
-  tfo: true
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: SG AKILE 01
+  name: 新加坡 AKILE 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -72,7 +48,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: SG AKILE 02
+  name: 新加坡 AKILE 02
   password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
   port: 33733
   server: SGone.papermsg.com
@@ -80,7 +56,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf
-  name: JP Akamai 01
+  name: 日本 Akamai 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -92,7 +68,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: JP Akamai 02
+  name: 日本 Akamai 02
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -104,39 +80,7 @@ proxies:
   type: ssr
   udp: true
 - cipher: chacha20-ietf
-  name: TW AKILE 01
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1375
-  protocol: auth_aes128_md5
-  protocol-param: 10967:123456
-  server: 121.14.131.180
-  tfo: true
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: TW DCBG 01
-  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
-  port: 32773
-  server: TWtwo.papermsg.com
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: TW AKILE 02
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1373
-  protocol: auth_aes128_md5
-  protocol-param: 10967:123456
-  server: 121.14.131.180
-  tfo: true
-  type: ssr
-  udp: true
-- cipher: chacha20-ietf
-  name: TW AKILE 03
+  name: 台湾 AKILE 01
   obfs: plain
   obfs-param: ''
   password: MAYING
@@ -144,6 +88,26 @@ proxies:
   protocol: auth_aes128_md5
   protocol-param: 10967:123456
   server: 120.236.198.130
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾 DCBG 02
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 32773
+  server: TWtwo.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 台湾 AKILE 03
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1373
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 121.14.131.180
   tfo: true
   type: ssr
   udp: true
