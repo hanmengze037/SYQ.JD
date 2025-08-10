@@ -1,1371 +1,1675 @@
 proxies:
-  - name: 香港01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8751
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8752
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港03
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8753
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港04
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8754
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港05
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8755
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港06
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8756
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港07
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8757
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港08
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8758
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港09
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8759
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港10
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8760
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港11
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8711
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港12
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8712
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港13
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8713
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港14
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8714
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港15
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8715
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港16
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8716
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港17
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8717
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港18
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8718
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港19
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8719
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 香港20
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8720
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8721
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8722
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡03
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8723
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡04
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8724
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡05
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8725
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡06
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8726
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡07
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8727
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡08
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8728
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡09
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8729
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 新加坡10
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8730
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8741
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8742
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾03
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8743
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾04
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8744
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾05
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8745
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾06
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8746
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾07
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8747
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾08
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8748
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾09
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8749
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾10
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8750
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 台湾动态ip（每小时自动更换ip）
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8739
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8761
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8762
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本03
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8763
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本04
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8764
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本05
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8765
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本06
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8766
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本07
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8767
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本08
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8768
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本09
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8769
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 日本10
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8770
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8771
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8772
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国03
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8773
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国04
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8774
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国05
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8775
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国06
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8776
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国07
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8777
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国08
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8778
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国09
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8779
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 美国10
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8780
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 韩国01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8601
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 韩国02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8602
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 马来西亚01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8605
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 马来西亚02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8606
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 英国01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8786
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 英国02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8787
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 土耳其01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8788
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 土耳其02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8789
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 俄罗斯01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8637
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 俄罗斯02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8638
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 加拿大01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8781
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 加拿大02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8782
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 法国01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8783
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 法国02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8784
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 乌克兰01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8785
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 乌克兰02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8790
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 荷兰01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8791
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 荷兰02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8793
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 德国01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8794
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 德国02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8796
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 西班牙01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8797
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 西班牙02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8798
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 澳大利亚01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8799
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 澳大利亚02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8800
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 瑞士01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8731
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 瑞士02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8732
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 希腊01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8733
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 希腊02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8734
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 意大利01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8735
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 意大利02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8736
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 比利时01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8737
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 比利时02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8738
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 摩尔多瓦01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8607
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 摩尔多瓦02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8608
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 罗马尼亚01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8609
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 罗马尼亚02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8610
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 冰岛01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8611
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 冰岛02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8612
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 捷克01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8615
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 捷克02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8616
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 匈牙利01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8617
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 匈牙利02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8618
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 芬兰01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8619
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 芬兰02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8620
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 葡萄牙01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8621
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 葡萄牙02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8622
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 丹麦01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8623
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 丹麦02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8624
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 保加利亚01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8625
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 保加利亚02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8626
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 挪威01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8627
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 挪威02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8628
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 波兰01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8631
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 波兰02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8632
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 斯洛伐克01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8633
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 斯洛伐克02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8634
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 立陶宛01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8635
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 立陶宛02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8636
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 爱尔兰01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8639
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 爱尔兰02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8640
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 哈萨克斯坦01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8641
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 哈萨克斯坦02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8642
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 塞尔维亚01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8643
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 塞尔维亚02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8644
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 以色列01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8645
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 以色列02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8646
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 巴西01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8647
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 巴西02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8648
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 斯洛文尼亚01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8649
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 斯洛文尼亚02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8650
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 北马其顿01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8651
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 北马其顿02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8652
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 拉脱维亚01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8653
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 拉脱维亚02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8654
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 奥地利01
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8655
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
-  - name: 奥地利02
-    type: ss
-    server: cn01.efan8867801.xyz
-    port: 8656
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
+- cipher: aes-256-gcm
+  name: HK LSHIY 01
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 21107
+  server: 682077.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: HK BAGE 02
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1329
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 59.37.173.57
+  tfo: true
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: HK Akari 03
+  port: 31110
+  server: 986586.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: aes-256-gcm
+  name: HK MNTL 04
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 21159
+  server: 986586.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: HK Alice 05
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1308
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 120.236.198.129
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: HK AKILE 06
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1321
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 121.14.131.180
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: aes-256-gcm
+  name: HK Akari 07
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 21119
+  server: 538110.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: HK Haruka 08
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 21005
+  server: iaplhk.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: HK RTL 09
+  network: ws
+  port: 9713
+  server: v3.cdn.ewddns.net
+  servername: jike1-azhk31.bilibili.com
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
+  ws-opts:
+    headers:
+      Host: jike1-azhk31.bilibili.com
+    path: /90ef180b-38c8-4eb1-9c97-9ff4030ac8f5.live238.m3u8
+- cipher: aes-128-gcm
+  name: HK EDCL 10
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 12001
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: HK EDCL 11
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65103
+  server: lmt.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: HK HKT 12
+  obfs: tls1.2_ticket_auth
+  obfs-param: 1cb5c8561.microsoft.com
+  password: yT6Am5
+  port: 31570
+  protocol: auth_aes128_md5
+  protocol-param: 8561:IiNxqW
+  server: oovhsg.vv4.fatdns.net
+  tfo: true
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: HK HK 13
+  network: ws
+  port: 29807
+  server: v3.cdn.ewddns.net
+  servername: jike1-de04.bilibili.com
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
+  ws-opts:
+    headers:
+      Host: jike1-de04.bilibili.com
+    path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8
+- cipher: aes-128-gcm
+  name: HK Kirino 14
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11003
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: HK GCore 15
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1327
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 59.37.173.57
+  tfo: true
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SG Akari 01
+  port: 31245
+  server: 682077.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: chacha20-ietf
+  name: SG Akamai 02
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1358
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 59.37.173.57
+  tfo: true
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SG SSPL 03
+  port: 31243
+  server: 682077.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: chacha20-ietf-poly1305
+  name: SG Akari 04
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65252
+  server: sg05.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: SG Kirino 05
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11034
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: SG BAGE 06
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1354
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 122.13.138.134
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: SG AKILE 07
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1353
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 120.236.198.130
+  tfo: true
+  type: ssr
+  udp: true
+- name: SG AMAZON 08
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 8080
+  ports: 8080
+  server: sg04.352343.cc
+  skip-cert-verify: true
+  sni: sg04.352343.cc
+  tfo: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SG Komi 09
+  port: 31241
+  server: 851279.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- name: SG AMAZON 10
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 8080
+  ports: 8080
+  server: sg12.352343.cc
+  skip-cert-verify: true
+  sni: sg12.352343.cc
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: SG AMAZON 11
+  network: ws
+  password: 4deefa4b-349d-4db8-be3c-d4d61c862718
+  port: 20230
+  server: sg006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: SG Akari 12
+  network: ws
+  port: 38567
+  server: oovhsg.vv4.fatdns.net
+  servername: jike1-linode09.bilibili.com
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
+  ws-opts:
+    headers:
+      Host: jike1-linode09.bilibili.com
+    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: SG AKILE 13
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 33733
+  server: SGone.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: SG DIGITALOCEAN 14
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 54321
+  server: dh.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- name: SG AMAZON 15
+  network: ws
+  password: 58176021-8165-48d5-94b1-ad3e96e71e8b
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- cipher: aes-256-gcm
+  name: JP Akari 01
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 21238
+  server: 986586.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- name: JP AMAZON 02
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 8080
+  ports: 8080
+  server: hkmax02.352343.cc
+  skip-cert-verify: true
+  sni: hkmax02.352343.cc
+  tfo: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: JP IDC 03
+  port: 31253
+  server: 986586.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- name: JP HNSL 04
+  password: 63b90cdb-ea9d-41ec-b843-125791c2123d
+  port: 443
+  server: jp2.bcc91e8f-3591-8ee7-dbfd-8038847218c0.02444020.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: JP Leaseweb 05
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 21002
+  server: iapljp.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: JP Akari 06
+  network: ws
+  port: 39401
+  server: oovhsg.vv4.fatdns.net
+  servername: jike1-azjp001.bilibili.com
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
+  ws-opts:
+    headers:
+      Host: jike1-azjp001.bilibili.com
+    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+- alterId: 0
+  cipher: auto
+  name: JP KOMI 07
+  port: 59041
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 382ea63d-63c6-4a68-a707-30f2413042d2
+- cipher: chacha20-ietf-poly1305
+  name: JP Akari 08
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65207
+  server: jp02.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- name: JP AMAZON 09
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 8080
+  ports: 8080
+  server: hyfnjp04.344233.cc
+  skip-cert-verify: true
+  sni: hyfnjp04.344233.cc
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: JP AMAZON 10
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 8080
+  ports: 8080
+  server: jp08.476579.xyz
+  skip-cert-verify: true
+  sni: jp08.476579.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf
+  name: JP Akamai 11
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1339
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 223.113.53.152
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: JP Akamai 12
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1336
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 223.113.53.152
+  tfo: true
+  type: ssr
+  udp: true
+- name: JP Amazon 13
+  network: ws
+  password: f177de9f-6bee-405e-b620-f73b43a1f2ea
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP Amazon 14
+  network: ws
+  password: 58176021-8165-48d5-94b1-ad3e96e71e8b
+  port: 20230
+  server: jp008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 15
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 8080
+  ports: 8080
+  server: hyfnjp03.352343.cc
+  skip-cert-verify: true
+  sni: hyfnjp03.352343.cc
+  tfo: true
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: US EDCL 01
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19803
+  server: cn2jp.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US WEBNX 02
+  port: 31304
+  server: 986586.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: aes-256-gcm
+  name: US POLONETWORK 03
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 21303
+  server: 682077.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: US DIGITALOCEAN 04
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 21000
+  server: iaplus.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US Yuwan 05
+  port: 31306
+  server: 986586.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: aes-128-gcm
+  name: US ATT 06
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 12021
+  server: preshdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: US DIGITALOCEAN 07
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19801
+  server: cn2us.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- name: US Hytron 08
+  password: eadd1bfa-4fe8-41aa-8f08-bd90b664e910
+  port: 443
+  server: us2.85e37a5a-54cd-cf17-a5cf-5b689ccbb0d5.2f6cd430.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  tfo: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US Black 09
+  port: 26122
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: US CLOUDFLARENET 10
+  packet-encoding: xudp
+  port: 25001
+  reality-opts:
+    public-key: a0HEEeIONIfjdqcJ9oPceRxVXeT8XFeC3rXYKbhBt0A
+    short-id: b767bef3
+  server: 138.2.238.219
+  servername: www.mcdaniel.edu
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e3a7187-b00f-4de4-9dbd-6fd5a5737ae9
+- name: US Amazon 11
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 34244
+  ports: 34244
+  server: hyfnus02.453521.xyz
+  skip-cert-verify: true
+  sni: hyfnus02.453521.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US EDCL 12
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65309
+  server: us01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: US BPSF 13
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11021
+  server: preshdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- name: US Amazon 14
+  network: ws
+  password: 72090081-bab6-49cd-8006-e470afaf84fb
+  port: 20230
+  server: us003.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: US Amazon 15
+  network: ws
+  password: 4deefa4b-349d-4db8-be3c-d4d61c862718
+  port: 20230
+  server: us004.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- cipher: chacha20-ietf
+  name: TW AKILE 01
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1375
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 121.14.131.180
+  tfo: true
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: TW Akari 02
+  port: 31139
+  server: 986586.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: aes-128-gcm
+  name: TW MNL 03
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19906
+  server: bgptw.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: TW DCBG 04
+  port: 31135
+  server: 851279.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: chacha20-ietf-poly1305
+  name: TW DCBG 05
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 32773
+  server: TWtwo.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- name: TW DCBG 06
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 3663
+  server: tw07.352343.cc
+  skip-cert-verify: true
+  sni: tw07.352343.cc
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: TW Kirino 07
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 12042
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: TW AKILE 08
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1373
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 121.14.131.180
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TW Akari 09
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65338
+  server: tw02.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- name: TW DCBG 10
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 8080
+  ports: 8080
+  server: 5gzdx.233235.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.233235.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf
+  name: TW AKILE 11
+  obfs: plain
+  obfs-param: ''
+  password: MAYING
+  port: 1370
+  protocol: auth_aes128_md5
+  protocol-param: 10967:123456
+  server: 120.236.198.130
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: aes-256-gcm
+  name: TW DCBG 12
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 21133
+  server: 851279.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- name: TW DCBG 13
+  password: 7d71464f-47de-40fc-b552-886d4147f22b
+  port: 3663
+  server: tw11.352343.cc
+  skip-cert-verify: true
+  sni: tw11.352343.cc
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  name: TW DCBG 14
+  obfs: tls1.2_ticket_auth
+  obfs-param: 1cb5c8561.microsoft.com
+  password: yT6Am5
+  port: 31200
+  protocol: auth_aes128_md5
+  protocol-param: 8561:IiNxqW
+  server: v3.cdn.ewddns.net
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: aes-256-gcm
+  name: TW DCBG 15
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 21138
+  server: 986586.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: AE ORACLE 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11083
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: AE Melbikomas 02
+  port: 26078
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: AR Dattatec 01
+  port: 32006
+  server: 682077.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: chacha20-ietf-poly1305
+  name: AR Kaopu 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65460
+  server: ar01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: AR Sondatech 03
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11066
+  server: preshdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: AU DIGITALOCEAN 01
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19924
+  server: lmau.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: AU Evoxt 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65433
+  server: au01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: AU Deutsche 03
+  port: 26110
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: AZ HOSTART 01
+  port: 26139
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: BE GCSL 01
+  port: 26150
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: chacha20-ietf-poly1305
+  name: BG ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65453
+  server: bg01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: BG Belcloud 02
+  port: 26094
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: aes-128-gcm
+  name: BR Oracle 01
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19928
+  server: lmbr.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: BR EDGEUNO 02
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11067
+  server: preshdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: BR Baxet 03
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65441
+  server: br01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65442
+  server: ca01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CA DIGITALOCEAN 02
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19920
+  server: lmca.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CA ORACLE 03
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36129
+  server: Hongl.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CH ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65430
+  server: ch01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: CL GRUPO 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11068
+  server: preshdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CL Kaopu 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65444
+  server: cl01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: CO ORACLE 01
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36178
+  server: DEL.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: DE Civo 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11057
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: DE Hetzner 02
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 22005
+  server: 851279.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: DE DIGITALOCEAN 03
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19911
+  server: lmde.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: EG Kaopu 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65440
+  server: eg01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: ES Propelin 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11054
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ES ASNET 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65445
+  server: es01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: FI ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65457
+  server: fi01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: FR ORACLE 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11063
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: FR OVH 02
+  obfs: tls1.2_ticket_auth
+  obfs-param: 1cb5c8561.microsoft.com
+  password: yT6Am5
+  port: 31802
+  protocol: auth_aes128_md5
+  protocol-param: 8561:IiNxqW
+  server: v3.cdn.ewddns.net
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: FR Kaopu 03
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65447
+  server: fr01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB Catixs 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11059
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: GB Haruka 02
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19915
+  server: lmuk.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: GB Massivegrid 03
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36259
+  server: DEL.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: HU Rackforest 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11053
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ID ORACLE 01
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36187
+  server: Hongl.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: ID OWS 02
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11073
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: ID GCNL 03
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65405
+  server: id01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: IE ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65464
+  server: ie01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: IE GCSL 02
+  port: 26151
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: aes-128-gcm
+  name: IL O 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11082
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: IN AS 01
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 22020
+  server: 682077.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: IN ASNET 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65401
+  server: in01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: IN Akamai 03
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11080
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: IS Advania 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65448
+  server: is01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: IT ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65455
+  server: it01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: IT Melbikomas 02
+  port: 26142
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: aes-128-gcm
+  name: IT KAMATERA 03
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11052
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: KH IICWTBVIT 01
+  port: 26082
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: aes-128-gcm
+  name: KR ML 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11071
+  server: preshdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: KR ORACLE 02
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19852
+  server: mm.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: KR MOACK 03
+  obfs: tls1.2_ticket_auth
+  obfs-param: 1cb5c8561.microsoft.com
+  password: yT6Am5
+  port: 31550
+  protocol: auth_aes128_md5
+  protocol-param: 8561:IiNxqW
+  server: v3.cdn.ewddns.net
+  tfo: true
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: LT GCSL 01
+  port: 26153
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: aes-128-gcm
+  name: MM CLOUDFLARENET 01
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19929
+  server: lmmm.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: MO DCTL 01
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36185
+  server: hongl.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: MO CNSERVERS 02
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19932
+  server: lmmo.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: MX Kaopu 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65446
+  server: mx01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: MX Choopa 02
+  port: 26148
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: chacha20-ietf-poly1305
+  name: MY Evoxt 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65458
+  server: my01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: MY STSB 02
+  port: 26137
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: chacha20-ietf
+  name: MY TTSS 03
+  obfs: tls1.2_ticket_auth
+  obfs-param: 1cb5c8561.microsoft.com
+  password: yT6Am5
+  port: 31302
+  protocol: auth_aes128_md5
+  protocol-param: 8561:IiNxqW
+  server: oovhsg.vv4.fatdns.net
+  tfo: true
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NG Suburban 01
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36195
+  server: Hongl.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NL ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65443
+  server: nl01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NZ Zappie 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65400
+  server: nz01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: PH ZEN 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11084
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: PH Kaopu 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65452
+  server: ph01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: PH Alibaba 03
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36763
+  server: hongl.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: PK VCPL 01
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36175
+  server: DEL.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: PL ASNET 01
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65449
+  server: pl01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: PT GCSL 01
+  port: 26154
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: RO CFIS 01
+  port: 26146
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- cipher: aes-128-gcm
+  name: RU LLC 01
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19919
+  server: lmru.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: RU LLC 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65451
+  server: ru01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: RU FIRST 03
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36191
+  server: Hongl.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: SC OWS 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11085
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SC Kaopu 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65431
+  server: kr01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: TH SCC 01
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19927
+  server: lmth.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: TH Bangmod 02
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11074
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: TH Kaopu 03
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65466
+  server: th01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: TR EdgeUno 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11055
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: TR Tigova 02
+  password: 14837141-5001-4d21-9a25-52feb9967302
+  port: 19926
+  server: lmtr.91king.win
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: TR Mehmet 03
+  port: 32007
+  server: 851279.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- cipher: aes-128-gcm
+  name: UA Gutkin 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11051
+  server: prebjdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: UA ASNET 02
+  password: bce04a68-22a4-4808-b31e-1af4f1992fd3
+  port: 65461
+  server: ua01.youlianlink.com
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: UA Green 03
+  port: 32002
+  server: 538110.supplanter.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 388BB536-C97B-CC3F-D104-49247B9B1B65
+- name: Unknown HNSL 01
+  password: 396f0b52-0876-45dd-a0f8-d0a9f570fae0
+  port: 443
+  server: us4.baba6b53-d7e7-6185-f548-038dd49650f9.30d6a0d0.the-best-airport.com
+  skip-cert-verify: true
+  sni: new.download.the-best-airport.com
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: VN VPATG 01
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 2b247be778.m.ctrip.com
+    mode: http
+  port: 11075
+  server: pregzdata1.233netpre.net
+  tfo: true
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: VN VNPT 02
+  password: 388BB536-C97B-CC3F-D104-49247B9B1B65
+  port: 22025
+  server: 986586.supplanter.xyz
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: VN VNPT 03
+  password: 5d9d2a9c-ceb6-4c9b-8db5-2c0d0ba22fbf
+  port: 36198
+  server: hongl.papermsg.com
+  tfo: true
+  type: ss
+  udp: true
